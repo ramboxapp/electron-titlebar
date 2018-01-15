@@ -20,7 +20,7 @@
 'use strict';
 
 function installTitlebar() {
-    if (window.electron_titlebar_installed === true) return;
+    if (window.electron_titlebar_installed === true || process.platform === 'darwin' ) return;
 
     let titlebar = document.getElementById('electron-titlebar');
     if (!titlebar) return;
