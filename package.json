@@ -1,15 +1,12 @@
 {
-  "name": "electron-titlebar",
+  "name": "@ramboxapp/electron-titlebar",
   "version": "0.0.3",
   "description": "Cool titlebar for electron apps for every system",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Menci/electron-titlebar.git"
-  },
+  "repository": "ramboxapp/electron-titlebar",
   "keywords": [
     "titlebar",
     "electron"
